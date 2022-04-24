@@ -258,13 +258,14 @@ ol {
   background-color: #f5f4fa;
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 120px;
   margin-bottom: 30px;
 }
 
 .svg {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  /* margin-top: 25px;
+  margin-bottom: 25px; */
 }
 
 .benefits-item-title {
@@ -352,7 +353,6 @@ ol {
   font-size: 16px;
   line-height: 1.18;
   color: var(--address-color);
-  margin: 0 30px;
   text-align: center;
 }
 
@@ -596,7 +596,11 @@ ol {
   border-top: none;
 }
 
-.port-item:hover {
+.port-link {
+  display: block;
+}
+
+.port-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
