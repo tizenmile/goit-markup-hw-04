@@ -362,10 +362,9 @@ ol {
   margin-top: 16px;
 }
 
-.team-social-item {
+.team-social-link {
   width: 44px;
   height: 44px;
-  background-color: var(--work-color);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -380,17 +379,13 @@ ol {
   fill: #afb1b8;
 }
 
-.team-social-item:hover,
-.team-social-item:focus {
-  background-color: var(--hover-color);
-}
-
+.team-social-link:hover,
 .team-social-link:focus {
   background-color: var(--hover-color);
 }
 
-.team-social-item:hover .team-svg,
-.team-social-item:focus .team-svg {
+.team-social-link:hover .team-svg,
+.team-social-link:focus .team-svg {
   fill: var(--work-color);
 }
 
