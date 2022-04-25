@@ -244,10 +244,9 @@ ol {
 
 /* benefits */
 
-.benefits-item {
-  margin-bottom: 10px;
-  margin-right: var(--typical-margin);
-  max-width: 270px;
+.benefits-item + .benefits-item {
+  margin-left: var(--typical-margin);
+
 }
 
 .benefits-list {
@@ -261,11 +260,6 @@ ol {
   align-items: center;
   height: 120px;
   margin-bottom: 30px;
-}
-
-.svg {
-  /* margin-top: 25px;
-  margin-bottom: 25px; */
 }
 
 .benefits-item-title {
